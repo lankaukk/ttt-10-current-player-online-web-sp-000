@@ -3,7 +3,7 @@ def turn_count(board)
   counter = 0
   board.each do |turns|
     puts "This is turn number #{turns}"
-    if board[counter] = "X" || "O" 
+    if board[counter] == "X" || "O" 
     counter += 1
     return counter
   end
