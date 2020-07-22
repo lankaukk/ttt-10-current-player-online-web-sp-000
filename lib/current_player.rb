@@ -1,6 +1,6 @@
 def turn_count(board)
   # returns the number of turns that have been played
-  counter = 0
+  counter = 1
   board.each do |turns|
     puts "This is turn number #{turns}"
     if board[counter] == "X" || "O" 
