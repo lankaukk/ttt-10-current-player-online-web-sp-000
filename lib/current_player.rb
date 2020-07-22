@@ -8,8 +8,6 @@ def turn_count(board)
   turns
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
 def current_player(turn_count, board)
   if turn_count(board) % 2 == 0
     return "X"
